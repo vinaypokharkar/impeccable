@@ -75,5 +75,11 @@ export const PROVIDERS = {
   configDir: '.qoder',
   displayName: 'Qoder',
   frontmatterFields: ['user-invocable', 'argument-hint', 'license'],
-}
+},
+  'rovo-dev': {
+    provider: 'rovo-dev',
+    configDir: '.rovodev',
+    displayName: 'Rovo Dev',
+    frontmatterFields: ['user-invocable', 'argument-hint', 'license', 'compatibility', 'metadata', 'allowed-tools'],
+  },
 };
